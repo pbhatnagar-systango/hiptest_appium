@@ -5,7 +5,7 @@ require_relative 'actionwords'
 describe 'IOS Application' do
   include Actionwords
 
-  it "on clicking signup button user should go on the terms and condition page" do
+  it "on clicking signup button user should go on the terms and condition page (uid:416725b8-765c-40d3-b213-3872172f4df2)" do
     # Given I am on splash screen
     i_am_on_splash_screen
     # And I click on signup button

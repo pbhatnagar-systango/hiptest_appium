@@ -1,0 +1,13 @@
+---
+- name: I am on splash screen
+  uid: 229db36d-dff1-437f-9249-5fa218c7607a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: " I click on signup button"
+  uid: 4e61fe01-1ba6-4d35-8c8b-ce2e390269d6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am on terms and condition page
+  uid: caa35866-fea8-4c60-b5f1-399f628193ab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

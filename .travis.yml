@@ -4,10 +4,10 @@ sudo: false
 
 before_install:
  - gem install hiptest-publisher
- - hiptest-publisher -c rspec.conf  --test-run-id=287817 --only=tests
+ - hiptest-publisher -c hiptest-publisher.conf  --test-run-id=287817 --only=tests
 
 script:
  - bundle exec rspec --format RspecJunitFormatter -o report.xml
 
 after_script:
-  - hiptest-publisher -c rspec.conf --push=report.xml --test-run-id=287817
+  - hiptest-publisher -c hiptest-publisher.conf --push=report.xml --test-run-id=287817
